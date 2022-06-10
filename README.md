@@ -6,4 +6,5 @@
 
 ## Builder Padaria
 ![Alt text](./padaria-builder.drawio.svg)
-<img src="./padaria-builder.drawio.svg">
+<!-- <img src="./padaria-builder.drawio.svg">
+ -->
