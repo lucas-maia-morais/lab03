@@ -35,43 +35,34 @@ class AbstractTypeCakeFactory(ABC):
 
 class CenouraFactory(AbstractTypeCakeFactory):
 
-    @abstractmethod
     def bakeAniversario(self):
         return Bolo("Cenoura", "Aniversario")
 
-    @abstractmethod
     def bakeCasamento(self):
         return Bolo("Cenoura", "Casamento")
     
-    @abstractmethod
     def bakeInformal(self):
         return Bolo("Cenoura", "Informal")
 
 class ChocolateFactory(AbstractTypeCakeFactory):
 
-    @abstractmethod
     def bakeAniversario(self):
         return Bolo("Chocolate", "Aniversario")
 
-    @abstractmethod
     def bakeCasamento(self):
         return Bolo("Chocolate", "Casamento")
     
-    @abstractmethod
     def bakeInformal(self):
         return Bolo("Chocolate", "Informal")
 
 
 class MandiocaFactory(AbstractTypeCakeFactory):
 
-    @abstractmethod
     def bakeAniversario(self):
         return Bolo("Mandioca", "Aniversario")
 
-    @abstractmethod
     def bakeCasamento(self):
         return Bolo("Mandioca", "Casamento")
     
-    @abstractmethod
     def bakeInformal(self):
         return Bolo("Mandioca", "Informal")
